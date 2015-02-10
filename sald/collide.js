@@ -114,6 +114,9 @@ function rayCircle(r, c) {
  */
 function rayRectangle(r, b) {
     //TODO
+    /* Improved on the code from : http://stackoverflow.com/questions/99353/how-to-test-if-a-line-segment-intersects-an-axis-aligned-rectange-in-2d
+    *
+    */
     var minX = r.start.x;
     var maxX = r.end.x;
 
@@ -170,6 +173,9 @@ function rayRectangle(r, b) {
  */
 function rayConvex(r, p) {
     //TODO
+   /*
+    * Algorithm understood and inspired from http://www.kevlindev.com/geometry/index.htm
+    */
     var res = null;
     var len = p.length;
     var ds = r.end - r.start;

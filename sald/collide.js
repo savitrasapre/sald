@@ -1,4 +1,7 @@
+/*      Name: Savitra Sapre
+        Website:https://github.com/savitrasapre/sald
 
+*/
 /* Circle vs Circle
  * INPUT: two circles specified by position and radius:
  *  c1 = {x:, y:, r:}, c2 = {x:, y:, r:}
